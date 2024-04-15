@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+</head>
+<body style="text-align: center; background-image: url(./Assests/bgimg.jpg);background-repeat: no-repeat;background-size:cover;color: white;">
+
+    <h1 style="font-size: 2.5rem;">Sign Up</h1>
+    <h2>It's quick and easy</h1> <hr>
+
+    <div style="display: flex; align-items: center; justify-content: center; ">
+    <form action="" method="get" autocomplete="off">
+
+        <fieldset style="padding: 30px;">
+            <legend><h1>User Details</h1></legend>
+            <input type="text" name="fname" id="fname" placeholder="Username" style="height:30px;width:170px;font-size: 1rem;"minlength="5" maxlength="50">
+        <input type="text" name="lname" id="lname" placeholder="Surname" style="height:30px;width:170px;font-size: 1rem;"minlength="5" maxlength="50"> <br><br>
+        <input type="email" name="mail" id="mail" placeholder="email address" style="height:30px;width:170px;font-size: 1rem;"> <br><br>
+        <input type="password" name="pwd" id="pwd" placeholder="New Password" style="height:30px;width:170px;font-size: 1rem;"> <br><br>
+        <label for="dob" style="font-size: 1.3rem;">Date of Birth &quest;</label> <br><br>
+        <select name="dob" id="dob" style="font-size: 1.2rem;height:30px;width:100px;">
+            <option value="date">Date</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27" selected>27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+        </select>
+        <select name="month" id="month" style="font-size: 1.2rem;height:30px;width:100px;">
+            <option value="Month">Month</option>
+            <option value="jan">Jan</option>
+            <option value="feb" selected>Feb</option>
+            <option value="mar">Mar</option>
+            <option value="apr">Apr</option>
+            <option value="may">May</option>
+            <option value="june">June</option>
+            <option value="july">July</option>
+            <option value="aug">Aug</option>
+            <option value="sep">Sep</option>
+            <option value="oct">Oct</option>
+            <option value="nov">Nov</option>
+            <option value="dec">Dec</option>
+        </select>
+        <select name="year" id="year" style="font-size: 1.2rem;height:30px;width:100px;">
+            <option value="yr">Year</option>
+            <option value="0">2010</option>
+            <option value="0">2011</option>
+            <option value="0">2012</option>
+            <option value="0">2013</option>
+            <option value="0">2014</option>
+            <option value="0">2015</option>
+            <option value="0">2016</option>
+            <option value="0">2017</option>
+            <option value="0">2018</option>
+            <option value="0">2019</option>
+            <option value="0">2020</option>
+            <option value="0">2021</option>
+            <option value="0">2022</option>
+            <option value="0">2023</option>
+            <option value="0" selected>2024</option>
+            <option value="0">2025</option>
+        </select> <br><br>
+        <label for="age" style="font-size: 1.3rem;">Age&quest;</label> <br><br>
+        <input type="number" name="age" min="15" max="70" placeholder="Age" style="font-size: 1rem;"> <br><br>
+        <label for="country" style="font-size: 1.3rem;" >Country</label> <br> <br>
+        <select name="country" id="country" style="font-size: 1.2rem;height:30px;width:200px;"> <br><br>
+            <option value="n/a"selected>select here</option>
+            <option value="Australia">Australia</option>
+            <optgroup label="Asia">
+            <option value="India" >India</option>
+            <option value="china">China</option></optgroup>
+        <optgroup label="North America">
+            <option value="canada">Canada</option>
+            <option value="USA">USA</option></optgroup>
+        </select> <br> <br>
+        <label for="gen" style="font-size: 1.3rem;">Gender &quest;</label> <br> <br>
+        <input type="radio" name="gen" id="male" style="font-size: 1.3rem;">
+        <label for="male" style="font-size: 1.3rem;">Male</label>
+        <input type="radio" name="gen" id="female" style="font-size: 1.3rem;">
+        <label for="female" style="font-size: 1.3rem;">Female</label>
+        <input type="radio" name="gen" id="custom" style="font-size: 1.3rem;">
+        <label for="custom" style="font-size: 1.3rem;">Custom</label>
+        <p style="font-size: 1.3rem;">People who use our service may have uploaded your contact information to Facebook. <a href="#">Learn more.</a></p>
+        <p style="font-size: 1.3rem;">By clicking Sign Up, you agree to our Terms, <a href="#"></a>Privacy Policy and <a href="#">Cookies Policy</a>. You may receive SMS notifications from us and can opt out at any time.</p>
+        <button type="submit" formaction="Signup.html" style="height:50px;width:190px;font-size: 1.2rem;color: white;background-color: #42b72a; border-radius: 10px 10px; border: 3px solid #42b72a; font-weight: 600;">Signup</button>
+    </fieldset>
+    </form>
+</div>
+
+</body>
+</html>
